@@ -45,7 +45,6 @@ public class Controller {
         System.out.println("Page has been refreshed. Product list is now updated.");
         return productRepository.findAll();
     }
-
 }
 
 /*
