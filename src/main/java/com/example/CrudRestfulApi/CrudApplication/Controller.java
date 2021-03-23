@@ -39,7 +39,6 @@ public class Controller {
         System.out.println("Product number " + productId + " was deleted.");
     }
 
-
     @GetMapping("/product")
     public List<Product> httpGet() {
         System.out.println("****************************************");
